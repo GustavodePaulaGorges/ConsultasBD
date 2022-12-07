@@ -1,4 +1,4 @@
-
+--Gustavo de Paula Gorges, João Otávio Bento, Giovanni wendel rezende de Oliveira, Carlos Eduardo de Oliveira Fernandes
 select nome_funcionario, cpf_funcionario, tipo_funcionario, salario_funcionario from funcionario, tipo_funcionario
 where tipo_funcionario.cod_tipo_funcionario = funcionario.cod_tipo_funcionario;
 
